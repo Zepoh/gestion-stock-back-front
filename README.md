@@ -8,8 +8,8 @@ Application complète de gestion de stock développée avec **Spring Boot** (bac
 
 ```
 📁 gestion-stock/
-├── 🔧 gestion-de-stock-api/     # Backend Spring Boot (Port 8080)
-└── ⚛️ gestion-stock-react/      # Frontend React (Port 3000)
+├── 🔧 gestion-de-stock-api/     # Backend Spring Boot (sur le Port 8080)
+└── ⚛️ gestion-stock-react/      # Frontend React (sur le  Port 3000)
 ```
 
 ### Backend - Spring Boot
@@ -149,7 +149,7 @@ Le frontend sera accessible sur : **http://localhost:3000**
 3. **Se connecter** avec les identifiants créés
 
 4. **Explorer l'application** :
-   - Dashboard pour voir les statistiques
+   - Dashboard pour voir les statistiques.
    - Articles pour gérer les produits
    - Clients/Fournisseurs pour les contacts
    - Utilisateurs pour gérer l'équipe (admin seulement)
@@ -165,7 +165,7 @@ Une fois l'application démarrée :
 
 ## 🛠️ Commandes Utiles
 
-### Backend
+### Back end
 ```bash
 # Compiler sans tests
 mvn clean compile
@@ -180,7 +180,7 @@ mvn clean package
 mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
 ```
 
-### Frontend
+### Front end
 ```bash
 # Démarrer en mode développement
 npm start
